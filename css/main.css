@@ -97,9 +97,44 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+ html {
+   box-sizing: border-box;
+ }
+ *, *:before, *:after {
+   box-sizing: inherit;
+ }
 
+ body {
+   font-family: Helvetica, Arial, sans-serif;
+ }
+ .welcome-page {
+   background-color: #5fb3d9;
+ }
 
+#logo{
+  float: right;
+  border: 1px solid black;
+}
 
+h1 {
+  font-size: 23px;
+  padding-left: 20px;
+}
+
+.main-nav ul{
+  list-style: none;
+  position: fixed;
+  right: 0;
+
+}
+
+.main-nav li{
+  padding-bottom: 70px;
+}
+
+.main-nav li a{
+  text-decoration: none;
+}
 
 
 
