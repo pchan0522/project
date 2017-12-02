@@ -106,25 +106,45 @@ textarea {
 
  body {
    font-family: Helvetica, Arial, sans-serif;
+   background: linear-gradient(to right, #6ecda2, #5eb1dd);
  }
- .welcome-page {
-   background-color: #5fb3d9;
+
+
+ h1, h2, h3, h4{
+   margin: 0;
  }
 
 #logo{
   float: right;
-  border: 1px solid black;
+  padding-right: 20px;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-left: 20px;
+  padding-top:15px;
 }
 
 h1 {
   font-size: 23px;
-  padding-left: 20px;
+  color: white;
+}
+
+.main-nav{
+  letter-spacing: 1px;
+  font-size: 25px;
 }
 
 .main-nav ul{
   list-style: none;
   position: fixed;
+  top:160px;
   right: 0;
+  padding-right: 20px;
+  text-align: right;
 
 }
 
@@ -132,15 +152,90 @@ h1 {
   padding-bottom: 70px;
 }
 
-.main-nav li a{
+.main-nav li a, .contact-nav a{
   text-decoration: none;
+  color: white;
+  font-weight: lighter;
+}
+
+.contact-nav{
+  position:fixed;
+  bottom:0;
+  width: 100%;
+  padding: 0 20px;
 }
 
 
+.join-us{
+  float:right;
+}
+
+.contact-nav .fa {
+  position:absolute;
+  right:150px;
+  bottom: 20px;
+}
+
+.contact-nav #text{
+  position:relative;
+}
+
+.welcome-page{
+  color: white;
+  margin: 300px 0 300px 100px;
+  width: 40%;
+}
+
+.welcome-page h2{
+  font-size: 40px;
+}
+
+.welcome-page p{
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.welcome-page a{
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  padding: 0 5px;
+}
+
+.welcome-page a:hover, .main-nav li a:hover{
+  color: white;
+  text-decoration: none;
+  background-color: #cc4e49;
+  border-bottom: none;
+  padding: 0 5px;
+}
+
+.projects img {
+  width:100%;
+}
+
+/**
+.projects{
+  background-color: #cc4e49;
+}
+
+.about {
+  background-color: white;
+}
+
+.about p{
+  margin: 0;
+}
 
 
+.contact, footer p{
+  background-color: #f2d657;
+  margin: 0;
+}
 
-
+footer {
+}
 
 
 
