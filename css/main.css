@@ -211,24 +211,108 @@ h1 {
   padding: 0 5px;
 }
 
-.projects img {
-  width:100%;
+.projects img{
+  width: 100%;
 }
 
-/**
-.projects{
+.projects {
+    position: relative;
+}
+
+.colorbox1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  width: 40%;
+  height: 100%;
   background-color: #cc4e49;
 }
 
+.colorbox1 #textwrap {
+  width: 25%;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 15px;
+  line-height: 2;
+}
+
+#textwrap h2{
+  font-size: 25px;
+  line-height: 0;
+}
+
+.projects a{
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  font-size: 25px;
+}
+
+.projects a:hover{
+  border-bottom: none;
+}
+
+
 .about {
   background-color: white;
+  position: relative;
+  height: 800px;
 }
 
-.about p{
-  margin: 0;
+
+.textbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 8px solid #cc4e49;
+  width: 55%;
+  padding: 80px 100px;
+  font-size: 20px;
+  color: #cc4e49;
 }
 
+.textbox h3{
+  text-align: center;
+  font-size: 25px;
+  font-weight: normal;
+}
 
+.textbox a{
+  color: #cc4e49;
+  text-decoration: none;
+  border-bottom: 1px solid #cc4e49;
+}
+
+.textbox a:hover{
+  background-color: #e6a7a4;
+  border-bottom: none;
+}
+
+.about h2{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about h2 a{
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  padding-bottom: 20px;
+  border-bottom: 5px solid black;
+}
+
+.about h2 a:hover{
+  border-bottom: none;
+  background-color: #d6716d;
+  padding: 0;
+}
+
+/**
 .contact, footer p{
   background-color: #f2d657;
   margin: 0;
