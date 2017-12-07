@@ -102,11 +102,6 @@ textarea {
 	src: url("https://use.typekit.net/izs1aqv.css");
 }
 
-@font-face {
-	font-family: "Europa";
-	src: url("https://use.typekit.net/qiz2iya.css");
-}
-
  html {
    box-sizing: border-box;
  }
@@ -171,16 +166,17 @@ h1 {
   font-weight: lighter;
 }
 
+
+
 .contact-nav a{
   color: white;
 }
 
 .contact-nav{
-  position: fixed;
-  bottom:0;
+  position: absolute;
+  bottom:50px;
   width: 100%;
   padding: 0 20px;
-  z-index: 10;
 }
 
 .join-us{
