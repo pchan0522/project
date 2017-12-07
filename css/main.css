@@ -176,6 +176,7 @@ h1 {
 }
 
 .contact-nav{
+  position: fixed;
   bottom:0;
   width: 100%;
   padding: 0 20px;
@@ -263,37 +264,6 @@ h1 {
   line-height: 0;
   padding-bottom: 10px;
 }
-/**
-.projects {
-    position: relative;
-
-}
-
-.colorbox1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: white;
-  width: 40%;
-  height: 100%;
-  background-color: #cc4e49;
-}
-
-.colorbox1 #textwrap {
-  width: 30%;
-  position: absolute;
-  top: 40%;
-  left: 40%;
-  font-size: 18px;
-  line-height: 2;
-}
-
-#textwrap h2{
-  font-size: 30px;
-  font-weight: normal;
-  line-height: 0;
-}
-**/
 
 .projects a{
   color: white;
@@ -367,12 +337,12 @@ h1 {
 
 .contact h2 {
   font-weight: normal;
-  font-size:30px;
+  font-size:32px;
 }
 
 .contact h3 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
   padding-bottom: 10px;
 }
 
@@ -383,6 +353,18 @@ h1 {
 .fa-long-arrow-right{
   float: left;
   padding-right: 20px;
+}
+
+.contact a {
+  color: black;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
 }
 
 .contact .col {
@@ -399,19 +381,22 @@ h1 {
 .col-1-4 {
   width: 25%;
   padding: 80px 0;
+  line-height: 1.5;
 }
 
-.contact a {
-  color: black;
-  text-decoration: none;
+.col-1-4 .fa {
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
-.contact a:hover {
-  color: black;
-  text-decoration: none;
-  border-bottom: 1px solid black;
-  padding-bottom: 2px;
+.col-1-4 .fa:hover {
+  opacity: 0.5;
 }
+
+.social a:hover {
+  border-bottom: none;
+}
+
 
 footer {
   clear: both;
