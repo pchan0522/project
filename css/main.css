@@ -137,12 +137,13 @@ header {
   width: 100%;
   padding-left: 20px;
   padding-top:15px;
+  z-index: 10;
 }
 
 h1 {
   font-size: 25px;
   font-weight: normal;
-  color: white;
+  color: #cc4e49;
 }
 
 .main-nav{
@@ -300,6 +301,7 @@ h1 {
   text-decoration: none;
   border-bottom: 1px solid white;
   font-size: 25px;
+  padding-bottom: 2px;
 }
 
 .projects a:hover{
@@ -307,13 +309,57 @@ h1 {
 }
 
 
-.about {
+.colorbox2 {
   background-color: white;
-  position: relative;
-  height: 800px;
+  padding: 140px 250px 150px 250px;
 }
 
+.textbox {
+  font-size: 25px;
+  color: #cc4e49;
+  background-color: white;
+  border: 8px solid #cc4e49;
+  padding: 85px 80px 100px 100px;
+}
 
+.textbox h3{
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.textbox a{
+  color: #cc4e49;
+  text-decoration: none;
+  border-bottom: 1px solid #cc4e49;
+  padding-bottom: 5px;
+}
+
+.textbox a:hover{
+  background-color: #e6a7a4;
+  border-bottom: none;
+}
+
+.about h2{
+  text-align: center;
+  margin-top: 145px;
+}
+
+.about h2 a{
+  font-size: 40px;
+  font-weight: normal;
+  color: black;
+  text-decoration: none;
+  border-bottom: 5px solid black;
+  padding-bottom: 15px;
+}
+
+.about h2 a:hover{
+  border-bottom: none;
+  background-color: #d6716d;
+  padding:0;
+}
+/**
 .textbox {
   position: absolute;
   top: 50%;
