@@ -176,7 +176,6 @@ h1 {
 }
 
 .contact-nav{
-  position:fixed;
   bottom:0;
   width: 100%;
   padding: 0 20px;
@@ -189,8 +188,8 @@ h1 {
 
 .contact-nav .fa {
   position:absolute;
-  right:150px;
-  bottom: 20px;
+  right:120px;
+  bottom: 5px;
 }
 
 .contact-nav #text{
@@ -359,68 +358,88 @@ h1 {
   background-color: #d6716d;
   padding:0;
 }
-/**
-.textbox {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 8px solid #cc4e49;
-  width: 55%;
-  padding: 80px 100px;
-  font-size: 20px;
-  color: #cc4e49;
-}
 
-.textbox h3{
-  text-align: center;
-  font-size: 25px;
+
+.contact{
+  background-color: #f2d657;
   font-weight: normal;
 }
 
-.textbox a{
-  color: #cc4e49;
-  text-decoration: none;
-  border-bottom: 1px solid #cc4e49;
+.contact h2 {
+  font-weight: normal;
+  font-size:30px;
 }
 
-.textbox a:hover{
-  background-color: #e6a7a4;
-  border-bottom: none;
+.contact h3 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
-.about h2{
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.about h2 a{
-  color: black;
-  font-size: 30px;
-  text-decoration: none;
-  padding-bottom: 20px;
-  border-bottom: 5px solid black;
-}
-
-.about h2 a:hover{
-  border-bottom: none;
-  background-color: #d6716d;
-  padding: 0;
-}
-
-/**
-.contact, footer p{
-  background-color: #f2d657;
+.contact p{
   margin: 0;
 }
 
-footer {
+.fa-long-arrow-right{
+  float: left;
+  padding-right: 20px;
 }
 
+.contact .col {
+  background-color: #f2d657;
+  float: left;
+  height: 17em;
+}
 
+.col-1-2 {
+  width: 50%;
+  padding: 110px 110px 110px 50px;
+}
 
+.col-1-4 {
+  width: 25%;
+  padding: 80px 0;
+}
+
+.contact a {
+  color: black;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+}
+
+footer {
+  clear: both;
+  height: 100%;
+  background-color: #f2d657;
+  padding: 20px;
+  border-top: 1px solid #e1c751;
+}
+
+footer p{
+  margin: 0;
+}
+
+#description {
+  float:right;
+}
+
+footer a{
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+}
 
 
 
