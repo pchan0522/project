@@ -96,6 +96,16 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/**@import url("https://use.typekit.net/izs1aqv.css");**/
+@font-face {
+	font-family: "Proxima Soft";
+	src: url("https://use.typekit.net/izs1aqv.css");
+}
+
+@font-face {
+	font-family: "Europa";
+	src: url("https://use.typekit.net/qiz2iya.css");
+}
 
  html {
    box-sizing: border-box;
@@ -105,7 +115,7 @@ textarea {
  }
 
  body {
-   font-family: Helvetica, Arial, sans-serif;
+   font-family: "Proxima Soft", sans-serif;
    background: linear-gradient(to right, #6ecda2, #5eb1dd);
  }
 
@@ -113,6 +123,7 @@ textarea {
  h1, h2, h3, h4{
    margin: 0;
  }
+
 
 #logo{
   float: right;
@@ -129,13 +140,14 @@ header {
 }
 
 h1 {
-  font-size: 23px;
+  font-size: 25px;
+  font-weight: normal;
   color: white;
 }
 
 .main-nav{
   letter-spacing: 1px;
-  font-size: 25px;
+  font-size: 27px;
 }
 
 .main-nav ul{
@@ -145,7 +157,7 @@ h1 {
   right: 0;
   padding-right: 20px;
   text-align: right;
-
+  z-index: 10;
 }
 
 .main-nav li{
@@ -154,8 +166,12 @@ h1 {
 
 .main-nav li a, .contact-nav a{
   text-decoration: none;
-  color: white;
+  color: #cc4e49;
   font-weight: lighter;
+}
+
+.contact-nav a{
+  color: white;
 }
 
 .contact-nav{
@@ -163,8 +179,8 @@ h1 {
   bottom:0;
   width: 100%;
   padding: 0 20px;
+  z-index: 10;
 }
-
 
 .join-us{
   float:right;
@@ -186,17 +202,19 @@ h1 {
   width: 40%;
 }
 
-.welcome-page h2{
-  font-size: 40px;
-}
-
-.welcome-page p{
+.welcome-page h3{
+  font-family: Helvetica, sans-serif;
   font-size: 15px;
-  font-weight: bold;
   letter-spacing: 1px;
 }
 
+.welcome-page h2{
+  font-size: 45px;
+  font-weight: normal;
+}
+
 .welcome-page a{
+  font-size: 25px;
   color: white;
   text-decoration: none;
   border-bottom: 1px solid white;
@@ -216,7 +234,39 @@ h1 {
 }
 
 .projects {
+  position: relative;
+  color: white;
+}
+
+.colorbox1 {
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 40%;
+  height: 100%;
+  background-color: #cc4e49;
+}
+
+.projects #textwrap {
+  position: absolute;
+  top:0;
+  right:0;
+  margin: 100px;
+  width:50%;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.projects #textwrap h2{
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 0;
+  padding-bottom: 10px;
+}
+/**
+.projects {
     position: relative;
+
 }
 
 .colorbox1 {
@@ -230,18 +280,20 @@ h1 {
 }
 
 .colorbox1 #textwrap {
-  width: 25%;
+  width: 30%;
   position: absolute;
   top: 40%;
   left: 40%;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 2;
 }
 
 #textwrap h2{
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: normal;
   line-height: 0;
 }
+**/
 
 .projects a{
   color: white;
