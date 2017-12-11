@@ -247,10 +247,9 @@ header a{
 
 .projects #textwrap {
   position: absolute;
-  top:0;
-  right:0;
-  margin: 6.25em;
-  width:50%;
+  top:7em;
+  right:7em;
+  max-width: 30%;
   font-size: 1.125em;
   line-height: 1.5;
 }
